@@ -1,7 +1,7 @@
 .DS_Store
 .gitignore
 node_modules
-_books
+
 prof
 tsconfig.tsbuildinfo
 .obsidian
