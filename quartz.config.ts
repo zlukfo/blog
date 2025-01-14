@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "ru-RU",
     baseUrl: "zlukfo.github.io/blog",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_templates"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
