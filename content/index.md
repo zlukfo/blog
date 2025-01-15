@@ -1,5 +1,5 @@
 ---
-title: Публикации
+title: Главная страница
 description: 
 permalink: 
 tags: 
