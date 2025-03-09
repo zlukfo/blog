@@ -1,0 +1,161 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "line",
+      "version": 2193,
+      "versionNonce": 1714102718,
+      "isDeleted": false,
+      "id": "j35mX1tciVCtT-iXTFHQp",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 364.0654624858463,
+      "y": 112.61764104196378,
+      "strokeColor": "#000000",
+      "backgroundColor": "#fab005",
+      "width": 216.59169524164594,
+      "height": 213.7570508526665,
+      "seed": 378039678,
+      "groupIds": [
+        "nMc5GG_FV_bwPWPqf4_-e",
+        "DJvCTuJ-ZCKhmy8Wk7brQ"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1740899677721,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          212.7239863980448,
+          0.7474022757086926
+        ],
+        [
+          216.59169524164594,
+          178.62914389436094
+        ],
+        [
+          181.0087738805182,
+          212.2622463012493
+        ],
+        [
+          2.3206253061605095,
+          213.7570508526665
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "line",
+      "version": 408,
+      "versionNonce": 1054826786,
+      "isDeleted": false,
+      "id": "jQG4NFcT8f-X-mKJoYW2V",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 580.3188305994504,
+      "y": 291.9850213448113,
+      "strokeColor": "#343a40",
+      "backgroundColor": "white",
+      "width": 36.99940631691888,
+      "height": 39.27629285949844,
+      "seed": 1079643582,
+      "groupIds": [
+        "DJvCTuJ-ZCKhmy8Wk7brQ"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1740899677721,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -34.722519774338856,
+          -5.12299472080459
+        ],
+        [
+          -36.99940631691888,
+          34.15329813869385
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "4YOwqwNeMhoRrPjHznC23",
+      "type": "text",
+      "x": 382.20001220703125,
+      "y": 127.39999389648438,
+      "width": 199.1798858642578,
+      "height": 175,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 987377122,
+      "version": 205,
+      "versionNonce": 814976766,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1740899767362,
+      "link": null,
+      "locked": false,
+      "text": "BABOK, CBOK, \nUse Case, ...\n\nВыделяем полезные \nпрактики\nдля практического\nбизнес-анализа",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 168,
+      "containerId": null,
+      "originalText": "BABOK, CBOK, \nUse Case, ...\n\nВыделяем полезные \nпрактики\nдля практического\nбизнес-анализа",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

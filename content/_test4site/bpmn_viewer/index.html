@@ -1,0 +1,34 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/bpmn-js@18.1.2/dist/assets/bpmn-js.css">
+</head>
+<body>
+  <div class="canvas">
+    <div id="js-canvas"></div>
+  </div>
+</body>
+  <!-- viewer -->
+  <script src="https://unpkg.com/bpmn-js@18.1.2/dist/bpmn-viewer.development.js"></script>
+  <!-- jquery (required for example only) -->
+  <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+  <!-- app -->
+  <script>
+    var viewer = new BpmnJS({
+      container: $('#js-canvas'),
+      height: 600
+    });
+
+    function openFromUrl(url) {
+      $.ajax(url, { dataType : 'text' }).done(async function(xml) {
+
+        try {
+          await viewer.importXML(xml);
+          viewer.get('canvas').zoom('fit-viewport');
+        } catch (err) {
+          console.error(err);
+        }
+      });
+    }
+    openFromUrl('test.bpmn')
+  </script>
+</html>
