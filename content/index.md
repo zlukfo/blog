@@ -3,7 +3,7 @@ title: Главная страница
 description: 
 permalink: 
 tags: 
-draft: true
+draft: false
 date:
 ---
 
