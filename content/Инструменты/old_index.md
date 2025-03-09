@@ -3,7 +3,7 @@ title: Главная страница
 description: 
 permalink: 
 tags: 
-draft: 
+draft: true
 date:
 ---
 # Пошаговый разбор внедрения Битрикс24 в процессы компании 
