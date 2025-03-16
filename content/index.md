@@ -1,5 +1,5 @@
 ---
-title: 
+title: Прикладной бизнес-анализ
 description: 
 permalink: 
 tags: 
