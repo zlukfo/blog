@@ -1,5 +1,5 @@
 ---
-title: Главная страница
+title: 
 description: 
 permalink: 
 tags: 
