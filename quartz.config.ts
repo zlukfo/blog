@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "LUKFO",
+    pageTitleSuffix: "Прикладной бизнес-анализ",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "ru-RU",
     baseUrl: "zlukfo.github.io/blog",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian" "_templates"],
     defaultDateType: "created",
     generateSocialImages: true,
     theme: {
