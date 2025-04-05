@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "line",
-      "version": 2193,
-      "versionNonce": 1714102718,
+      "version": 2194,
+      "versionNonce": 1228324048,
       "isDeleted": false,
       "id": "j35mX1tciVCtT-iXTFHQp",
       "fillStyle": "solid",
@@ -24,12 +24,13 @@
       "seed": 378039678,
       "groupIds": [
         "nMc5GG_FV_bwPWPqf4_-e",
-        "DJvCTuJ-ZCKhmy8Wk7brQ"
+        "DJvCTuJ-ZCKhmy8Wk7brQ",
+        "JMHJJqectet4zIri2Xprq"
       ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1740899677721,
+      "updated": 1741522691111,
       "link": null,
       "locked": false,
       "startBinding": null,
@@ -66,8 +67,8 @@
     },
     {
       "type": "line",
-      "version": 408,
-      "versionNonce": 1054826786,
+      "version": 409,
+      "versionNonce": 406599728,
       "isDeleted": false,
       "id": "jQG4NFcT8f-X-mKJoYW2V",
       "fillStyle": "solid",
@@ -84,12 +85,13 @@
       "height": 39.27629285949844,
       "seed": 1079643582,
       "groupIds": [
-        "DJvCTuJ-ZCKhmy8Wk7brQ"
+        "DJvCTuJ-ZCKhmy8Wk7brQ",
+        "JMHJJqectet4zIri2Xprq"
       ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1740899677721,
+      "updated": 1741522691111,
       "link": null,
       "locked": false,
       "startBinding": null,
@@ -118,8 +120,8 @@
     },
     {
       "type": "text",
-      "version": 245,
-      "versionNonce": 737231408,
+      "version": 246,
+      "versionNonce": 1122411216,
       "isDeleted": false,
       "id": "4YOwqwNeMhoRrPjHznC23",
       "fillStyle": "solid",
@@ -135,11 +137,13 @@
       "width": 199.1798858642578,
       "height": 150,
       "seed": 987377122,
-      "groupIds": [],
+      "groupIds": [
+        "JMHJJqectet4zIri2Xprq"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1741522601336,
+      "updated": 1741522691112,
       "link": null,
       "locked": false,
       "fontSize": 20,
