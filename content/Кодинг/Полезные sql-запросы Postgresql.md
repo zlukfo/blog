@@ -31,7 +31,7 @@ https://postgrespro.ru/docs/postgresql/11/functions-admin#FUNCTIONS-ADMIN-DBSIZE
 
 Минимальный вариант для конкретной таблицы
 ```sql
-select pg_size_pretty(pg_total_relation_size('osint.info_hh_company'))
+select pg_size_pretty(pg_total_relation_size('table_name'))
 ```
 Расширенный вариант
 ```sql
@@ -48,7 +48,7 @@ order by pg_total_relation_size(t.table_schema||'.'||t.table_name) desc
 
 ## Сколько места занимает столбец таблицы
 ```sql
-SELECT pg_size_pretty(sum(pg_column_size(emb300))) FROM osint.site;
+SELECT pg_size_pretty(sum(pg_column_size(column_name))) FROM osint.site;
 ```
 
 ## Вывести статистику по индексам
@@ -110,7 +110,7 @@ SELECT * FROM pgstatginindex('test_gin_index');
 | `free_percent`       | `float8` | Процент свободного пространства              |
 Пример использования
 ```sql
-SELECT pg_size_pretty(table_len), tuple_percent, pg_size_pretty(free_space) FROM pgstattuple('view.email');
+SELECT pg_size_pretty(table_len), tuple_percent, pg_size_pretty(free_space) FROM pgstattuple('table_name');
 ```
 получаем
 - размер таблицы 170 МБ
@@ -119,7 +119,7 @@ SELECT pg_size_pretty(table_len), tuple_percent, pg_size_pretty(free_space) FROM
 
 выполняем
 ``` sql
-vacuum full view.email
+vacuum full table_name
 ```
 повторяем запрос статистики, получаем
 - размер таблицы 97 МБ
@@ -132,7 +132,7 @@ vacuum full view.email
 
 Кейс - поиск значений поля принадлежащего сгенерированной последовательности
 ```sql
-select count(company_name) from docubiz_legal_unites  
+select count(company_name) from table_name  
 where siren  in (  
     SELECT sir from (select generate_series (1,100000), (floor(random()*(999999999-111111111+1))+111111111)::varchar AS sir) as a  
     )
