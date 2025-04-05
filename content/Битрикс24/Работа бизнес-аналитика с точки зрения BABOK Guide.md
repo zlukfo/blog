@@ -1,9 +1,12 @@
 ---
 title: 
-date: 
-tags:
-  - BABOK
+description: 
+permalink: 
+tags: 
+draft: true
+date:
 ---
+
 См. [[BABOK]]
 
 Основу работы бизнес-аналитика (БA) составляют 2 понятия:
