@@ -1,7 +1,7 @@
 ---
 title: 
-description: 
-permalink: 
+description: Описание
+permalink: /blog
 tags:
   - бизнес-анализ
 draft: false
