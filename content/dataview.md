@@ -4,4 +4,3 @@ table file.path where draft=true
 ```
 
 
-
